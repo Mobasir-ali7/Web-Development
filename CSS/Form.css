@@ -1,0 +1,28 @@
+h1{
+  color:green;
+}
+
+#gender{
+
+  width :210px;
+}
+
+#submit{
+  width:210px;
+  height:30px;
+  color:white;
+  background:green;
+}
+
+#top{
+ border: 1px solid rgb(37, 170, 103);  
+ border-radius: 10px;
+ box-shadow: 10px 10px 10px 1px black;
+ width: 500px;
+ height: 800px;
+}
+
+body{
+  padding: 20px;
+  margin: 20px;
+}

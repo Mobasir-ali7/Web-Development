@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    display: grid;
+    width: 800px;
+    height: 800px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    border: 3px solid black;
+}
+.first{
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+
+    /* same */
+    grid-row: 1/4;
+    background-color: brown;
+}
+.second{  
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    grid-column: 2/4;
+    background-color: blue;
+}
+
+.third{
+       grid-column-start: 4;   
+       grid-column-end: 5; 
+       background-color: aqua;  
+}
+
+.fourth{
+     grid-row: 2/3;
+     grid-column: 2/3;
+     background-color: green;
+}
+
+.sixth{
+grid-row: 2/4;
+grid-column: 4/5;
+background-color: red;
+}
+
+/* sab mai grid row o coloum apply karo */
